@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+0f62f2c8f94b4960bdc28b95161f9a2def340cbb refs/heads/master
+0f62f2c8f94b4960bdc28b95161f9a2def340cbb refs/original/refs/heads/master
+75189330313b515537f5c8f9ea54bb0eafc30e79 refs/original/refs/stash
+724325e98eba3f1edf8b1a22a6c3ee7e6f2d28a1 refs/stash
