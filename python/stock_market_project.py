@@ -215,7 +215,7 @@ while True:
             manipulate_database("UPDATE balances SET total_change = %s WHERE user_id = %s", (change, user_id))
             rows = execute("SELECT total_change FROM balances WHERE user_id = %s", (user_id,))
             if rows:
-                total_change = (rows[0][0])/10
+                total_change = (rows[0][0])
                 print(f"Total gain/loss: ${f"{total_change:.2f}"}  ({f"{((total_change * 100)/currentbalance):.2f}"}%)")
             else:
                 print("No balance row for this user.")
