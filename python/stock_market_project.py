@@ -15,7 +15,7 @@ if not token:
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = token
 llm = HuggingFaceEndpoint(
-    repo_id="google/gemma-2-2b-it",  # Chat-compatible model
+    repo_id="google/gemma-2-2b-it",  
     temperature=0.7,
     max_new_tokens=200
 )
